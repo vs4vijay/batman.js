@@ -1,2 +1,2 @@
 @echo off
-http-server . -p 5555 -o -r --cors
+http-server . -p 1337 -o -r --cors
