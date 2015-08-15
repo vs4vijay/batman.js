@@ -1,11 +1,37 @@
 {
   "name": "batman.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "batman.js",
   "main": "index.js",
   "scripts": {
+    "start": "browserify -t reactify app/app.js > build/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vs4vijay/batman.js.git"
+  },
+  "keywords": [
+    "batman",
+    "react",
+    "angular",
+    "reactjs",
+    "angularjs",
+    "webgl",
+    "togetherjs",
+    "vs4vijay"
+  ],
+  "author": "vs4vijay@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vs4vijay/batman.js/issues"
+  },
+  "homepage": "https://github.com/vs4vijay/batman.js#readme",
+  "devDependencies": {
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
 }

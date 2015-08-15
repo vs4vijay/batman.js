@@ -1,7 +1,12 @@
+/** #React.DOM */
+
+var React = require('react');
+var HelloMessage = require('./HelloMessage');
+
 var App = React.createClass({
   render: function() {
-    var message = 'React message';
-    return <p>{message}</p>;
+    var message = 'xReact';
+    return <p>{message} <HelloMessage/></p>;
   }
 });
 
