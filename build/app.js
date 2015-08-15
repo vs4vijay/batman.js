@@ -40,7 +40,8 @@ var Home = React.createClass({displayName: "Home",
       React.createElement("p", null, 
         message, 
         React.createElement(HelloMessage, null), 
-        React.createElement(Batman, null)
+        React.createElement(Batman, null), 
+        React.createElement("button", {onClick: "TogetherJS(this); return false;"}, "Start TogetherJS")
       )
     );
   }

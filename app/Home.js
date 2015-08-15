@@ -12,6 +12,7 @@ var Home = React.createClass({
         {message}
         <HelloMessage/>
         <Batman/>
+        <button onClick="TogetherJS(this); return false;">Start TogetherJS</button>
       </p>
     );
   }
