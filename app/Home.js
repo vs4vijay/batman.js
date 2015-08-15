@@ -2,7 +2,8 @@
 
 var React = require('react'),
     Batman = require('./Batman'),
-    HelloMessage = require('./HelloMessage');
+    HelloMessage = require('./HelloMessage'),
+    CoBrowseButton = require('./CoBrowseButton');
 
 var Home = React.createClass({
   render: function() {
@@ -10,9 +11,9 @@ var Home = React.createClass({
     return (
       <p>
         {message}
-        <HelloMessage/>
-        <Batman/>
-        <button onClick="TogetherJS(this); return false;">Start TogetherJS</button>
+        <HelloMessage />
+        <Batman />
+        <CoBrowseButton />
       </p>
     );
   }

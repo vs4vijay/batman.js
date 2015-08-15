@@ -4,6 +4,7 @@ var React = require('react'),
     Router = require('react-router'),
     Home = require('./Home'),
     Batman = require('./Batman'),
+    CoBrowseButton = require('./CoBrowseButton'),
     HelloMessage = require('./HelloMessage');
 
 var Route = Router.Route,
@@ -18,6 +19,8 @@ var routes = (
     <Route name="hello" path="/hello" handler={HelloMessage} />
   </Route>
 );
+
+//var TogetherJSConfig_toolName = 'Co-Browse';
 
 var App = React.createClass({
   render: function() {
