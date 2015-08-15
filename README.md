@@ -1,10 +1,11 @@
 # batman.js
-batman.js
+batman.js is ReactJS application for fun.
 
 
 ## To Do
   - Integrate with Webpack or Gulp(watch module)
     - http://jmfurlott.com/tutorial-setting-up-a-single-page-react-web-app-with-react-router-and-webpack/
+    - https://blog.codecentric.de/en/2014/08/angularjs-browserify/
   - Add 404 page
   - Add .gitignore
   - Setup travis ci
