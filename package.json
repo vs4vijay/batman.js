@@ -28,8 +28,11 @@
   },
   "homepage": "https://github.com/vs4vijay/batman.js#readme",
   "devDependencies": {
+    "optimist": "^0.6.1",
     "react-tools": "^0.13.3",
-    "reactify": "^1.1.1"
+    "reactify": "^1.1.1",
+    "websocket": "^1.0.21",
+    "websocket-server": "miksago/node-websocket-server#master"
   },
   "dependencies": {
     "react": "^0.13.3",

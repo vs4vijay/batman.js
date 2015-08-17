@@ -26,6 +26,7 @@ module.exports = Batman;
 var React = require('react');
 
 TogetherJS.config('toolName', 'CoBrowse');
+TogetherJS.config('hubBase', 'http://127.0.0.1:8080/');
 
 var CoBrowseButton = React.createClass({displayName: "CoBrowseButton",
 
