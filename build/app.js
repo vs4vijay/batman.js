@@ -29,9 +29,10 @@ TogetherJS.config('toolName', 'CoBrowse');
 
 var CoBrowseButton = React.createClass({displayName: "CoBrowseButton",
 
-  _handleClick: function() {
+  _handleClick: function(e) {
     TogetherJS(this);
-    return false;
+    e.stopPropagation();
+    //return false;
   },
 
   render: function() {
